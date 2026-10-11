@@ -24,6 +24,7 @@
     "node": "*"
   },
   "scripts": {
+    "prepublishOnly": "node scripts/require-dist-tag.cjs",
     "test": "gulp test",
     "build": "coffee -o lib -c src",
     "watch": "coffee -o lib -w src",
