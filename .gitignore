@@ -6,3 +6,4 @@ _build/
 .agents/
 .archive/
 .tmp/
+.cache/
